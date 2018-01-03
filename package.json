@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-styled-jsx-postcss",
-  "version": "1.0.8",
-  "description": "Fetch data from Salsify API",
+  "version": "0.0.0",
+  "description": "A Gatsby plugin to use styled-jsx with PostCSS",
   "scripts": {
     "build": "babel src --out-dir . --ignore __tests__",
     "prepublish": "npm run build",
@@ -15,8 +15,9 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "gatsby-source-plugin",
-    "salsify"
+    "styled-jsx",
+    "salsify",
+    "postcss"
   ],
   "author": "Kennedy Rose <kennedy@escaladesports.com>",
   "license": "MIT",
