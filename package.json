@@ -7,6 +7,7 @@
     "prepublish": "npm run build",
     "watch": "npm run build -- --watch"
   },
+  "main": "gatsby-ssr.js",
   "homepage": "https://github.com/escaladesports/gatsby-plugin-styled-jsx-postcss",
   "repository": {
     "type": "git",
