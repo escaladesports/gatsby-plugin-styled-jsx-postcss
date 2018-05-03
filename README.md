@@ -7,13 +7,13 @@ A Gatsby plugin to use styled-jsx with PostCSS.
 With Yarn:
 
 ```bash
-yarn add gatsby-source-salsify
+yarn add gatsby-plugin-styled-jsx-postcss
 ```
 
 Or with npm:
 
 ```bash
-npm install --save gatsby-source-salsify
+npm install --save gatsby-plugin-styled-jsx-postcss
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npm install --save gatsby-source-salsify
 ```javascript
 // In your gatsby-config.js
 plugins: [
-	'gatsby-plugin-styled-jsx-postcss',
+  'gatsby-plugin-styled-jsx-postcss',
 ]
 ```
 
