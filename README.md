@@ -25,6 +25,10 @@ plugins: [
 ]
 ```
 
+## Options
+
+This plugin will also watch CSS files and refresh your browser on change if running in `develop` mode. This is because if you're importing other CSS files in your `<style>` tags, the browser will not refresh on its own. To disable this set a `watchCss` option to `false`.
+
 ## Adding PostCSS plugins
 
 This plugin uses the postcss-load-plugins, so you can import PostCSS plugins with any of the [methods mentioned in their documentation](https://github.com/michael-ciniawsky/postcss-load-plugins).
