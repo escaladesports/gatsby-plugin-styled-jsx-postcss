@@ -1,4 +1,7 @@
 const chokidar = require('chokidar')
+const { remove } = require('fs-extra')
+const touch = require('touch')
+const glob = require('globby')
 
 // Add babel plugin
 exports.modifyBabelrc = ({ babelrc }) => {
