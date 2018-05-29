@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
+    "chokidar": "^2.0.3",
     "es6-error": "^4.0.2",
     "styled-jsx-plugin-postcss": "^0.1.2"
   }

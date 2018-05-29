@@ -1,3 +1,5 @@
+const chokidar = require('chokidar')
+
 // Add babel plugin
 exports.modifyBabelrc = ({ babelrc }) => {
 	return {
