@@ -12,7 +12,7 @@ exports.onCreateBabelConfig = ({ actions }) => {
 };
 
 // Watch CSS files
-exports.modifyWebpackConfig = ({ config, stage }, options) => {
+exports.onCreateWebpackConfig = ({ stage, actions }, options) => {
 	if (stage === `develop`) {
 		options = {
 			watchCss: true,
@@ -37,5 +37,5 @@ exports.modifyWebpackConfig = ({ config, stage }, options) => {
 		}
 	}
 
-	return config
+	return actions
 }
