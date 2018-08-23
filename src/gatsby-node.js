@@ -4,19 +4,12 @@ const touch = require('touch')
 const glob = require('globby')
 
 // Add babel plugin
-exports.modifyBabelrc = ({ babelrc }) => {
-	return {
-		...babelrc,
-		plugins: babelrc.plugins.concat([
-			[
-				'styled-jsx/babel',
-				{
-					'plugins': ['styled-jsx-plugin-postcss']
-				}
-			]
-		]),
-	}
-}
+exports.onCreateBabelConfig = ({ actions }) => {
+	actions.setBabelPlugin({
+		name: 'styled-jsx/babel',
+		options: { plugins: ['styled-jsx-plugin-postcss'] },
+	});
+};
 
 // Watch CSS files
 exports.modifyWebpackConfig = ({ config, stage }, options) => {
