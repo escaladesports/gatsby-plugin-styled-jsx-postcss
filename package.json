@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-styled-jsx-postcss",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Gatsby plugin to use styled-jsx with PostCSS",
   "scripts": {
     "build": "babel src --out-dir . --ignore __tests__",
